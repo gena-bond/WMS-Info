@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='plugins.xsl' ?>
+<plugins>
+
+
+   <pyqgis_plugin name='wmsinfi' version='0.1'>
+    <description>this plugin takes coordinates of a mouse click and gets information from this point from WMS DZK web service</description>
+    <version>0.1</version>
+    <qgis_minimum_version>2.0.0</qgis_minimum_version>
+    <homepage>https://github.com/gena-bond/WMS-Info</homepage>
+    <file_name>wmsinfo.zip</file_name>
+    <author_name>Gennady Bondarenko</author_name>
+    <download_url>https://github.com/gena-bond/WMS-Info/blob/master/WmsInfo.zip</download_url>
+    <uploaded_by>Gennady Bondarenko</uploaded_by>
+    <create_date>2016-12-22</create_date>
+    <update_date>2016-12-22</update_date>
+  </pyqgis_plugin> 
+
+  
+
+</plugins>
