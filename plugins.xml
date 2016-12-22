@@ -1,6 +1,35 @@
-<?xml version = '1.0' encoding = 'ISO-8859-1'?>
-<?xml-stylesheet type='text/xsl' href='plugins.xsl' ?>
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="/static/style/plugins.xsl" ?>
 <plugins>
+    <pyqgis_plugin name="WMS Info" version="0.1.0" plugin_id="1">
+        <description><![CDATA[this plugin takes coordinates of a mouse click and gets information from this point from WMS DZK web service.]]></description>
+        <about><![CDATA[WMS Info]]></about>
+        <version>0.1.0</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>2.0.0</qgis_minimum_version>
+        <qgis_maximum_version>2.99.0</qgis_maximum_version>
+        <homepage><![CDATA[https://github.com/gena-bond/WMS-Info]]></homepage>
+        <file_name>WmsInfo.zip</file_name>
+        <icon></icon>
+        <author_name><![CDATA[Gennady Bondarenko]]></author_name>
+        <download_url>https://github.com/gena-bond/WMS-Info/blob/master/WmsInfo.zip</download_url>
+        <uploaded_by><![CDATA[gena bondarenko]]></uploaded_by>
+        <create_date>2016-12-22T09:43:57.251757</create_date>
+        <update_date>2016-12-22T09:43:57.251757</update_date>
+        <experimental>False</experimental>
+        <deprecated>True</deprecated>
+        <tracker><![CDATA[https://github.com/gena-bond/WMS-Info]]></tracker>
+        <repository><![CDATA[https://github.com/gena-bond/WMS-Info]]></repository>
+        <tags><![CDATA[wms]]></tags>
+        <downloads>12</downloads>
+        <average_vote>3.66636113657</average_vote>
+        <rating_votes>12</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin> 
+
+  </plugins>        
+   
 
 
    <pyqgis_plugin name='wmsinfi' version='0.1'>
@@ -8,14 +37,10 @@
     <version>0.1</version>
     <qgis_minimum_version>2.0.0</qgis_minimum_version>
     <homepage>https://github.com/gena-bond/WMS-Info</homepage>
-    <file_name>wmsinfo.zip</file_name>
+    <file_name>WmsInfo.zip</file_name>
     <author_name>Gennady Bondarenko</author_name>
     <download_url>https://github.com/gena-bond/WMS-Info/blob/master/WmsInfo.zip</download_url>
     <uploaded_by>Gennady Bondarenko</uploaded_by>
     <create_date>2016-12-22</create_date>
     <update_date>2016-12-22</update_date>
-  </pyqgis_plugin> 
 
-  
-
-</plugins>
